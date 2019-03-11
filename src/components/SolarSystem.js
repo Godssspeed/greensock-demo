@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import Sun from './Sun';
-import Earth from './Earth';
-import Venus from './Venus';
-import Mercury from './Mercury';
-import Mars from './Mars';
+import React, { Component } from "react";
+import Sun from "./Sun";
+import Earth from "./Earth";
+import Venus from "./Venus";
+import Mercury from "./Mercury";
+import Mars from "./Mars";
 
 export class SolarSystem extends Component {
 	render() {
@@ -39,6 +39,8 @@ export class SolarSystem extends Component {
 			</div>
 		);
 	}
+
+
 }
 
 export default SolarSystem;

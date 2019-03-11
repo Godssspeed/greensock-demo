@@ -1,7 +1,12 @@
 .sun-div {
-  width: 250px;
-  margin: 0 auto;
-  /* position: absolute; */
-  /* top: 50; */
-  /* left: -50; */
+  /* width: 6px;
+  height: 6px;
+  background: #cc0000; */
+  border: 0 none transparent;
+  border-radius: 100%;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  margin-top: -3px;
+  margin-left: -3px;
 }
