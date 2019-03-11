@@ -1,18 +1,45 @@
-* {
-	background: url("https://s3.us-east-2.amazonaws.com/solarsystem/black-star-background-1024x768.jpg");
-	margin: 0 auto;
+body {
+  /* background-size: 15vw;
+  animation: space 100s infinite linear; */
+
+  /* margin: 0 auto; */
 }
 
 .App {
-	text-align: center;
-	width: 100%;
-	height: 100%;
+  height: 100%;
+  width: 100%;
+}
+.space-div::after {
+  content: "";
+  background: url("https://s3.us-east-2.amazonaws.com/solarsystem/black-star-background-1024x768.jpg");
+  background-size: 15vw;
+  /* background-position: center top; */
+  position: absolute;
+  z-index: -1;
+  top: 0%;
+  left: 0%;
+  /* bottom: 0; */
+  /* right: 0; */
+  overflow: visible;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+
+  animation: space 1000s infinite linear;
+}
+@keyframes space {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .outer-div {
-	width: 100%;
-	height: 100%;
-	display: flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 
 .sun img,
@@ -20,38 +47,30 @@
 .mars img,
 .venus img,
 .mercury img {
-	height: 200px;
-	/* width: 200px; */
+  height: 200px;
+  /* width: 200px; */
 }
 
 .earth-div {
-	width: 250px;
-	border: solid 1px pink;
-	/* position: fixed; */
-	/* top: 0; */
+  width: 250px;
+  border: solid 1px pink;
+  /* position: fixed; */
+  /* top: 0; */
 }
 .mars-div {
-	width: 250px;
-	border: solid 1px pink;
-	/* position: absolute; */
+  width: 250px;
+  border: solid 1px pink;
+  /* position: absolute; */
 }
 .mercury-div {
-	width: 250px;
-	border: solid 1px pink;
-	/* position: absolute; */
-	/* top: 100; */
-	/* right: 50; */
+  width: 250px;
+  border: solid 1px pink;
+  /* position: absolute; */
+  /* top: 100; */
+  /* right: 50; */
 }
 .venus-div {
-	width: 250px;
-	border: solid 1px pink;
-	/* position: absolute; */
-}
-
-.sun-div {
-	width: 250px;
-	margin: 0 auto;
-	/* position: absolute; */
-	/* top: 50; */
-	/* left: -50; */
+  width: 250px;
+  border: solid 1px pink;
+  /* position: absolute; */
 }
