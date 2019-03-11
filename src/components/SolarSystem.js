@@ -9,11 +9,21 @@ export class SolarSystem extends Component {
 	render() {
 		return (
 			<div>
-				<Sun />
-				<Earth />
-				<Venus />
-				<Mercury />
-				<Mars />
+				<div className="sun-div">
+					<Sun />
+				</div>
+				<div className="earth-div">
+					<Earth />
+				</div>
+				<div className="venus-div">
+					<Venus />
+				</div>
+				<div className="mercury-div">
+					<Mercury />
+				</div>
+				<div className="mars-div">
+					<Mars />
+				</div>
 			</div>
 		);
 	}
