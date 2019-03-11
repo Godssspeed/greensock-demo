@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="space-div">
+        <div className="space-div" id="expo">
           <SolarSystem />
         </div>
       </div>
