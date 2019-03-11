@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Mercury.css";
 
 export class Mercury extends Component {
   render() {

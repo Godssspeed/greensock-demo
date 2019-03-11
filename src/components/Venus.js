@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Venus.css";
 
 export class Venus extends Component {
   render() {

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Earth.css";
 
 export class Earth extends Component {
   render() {
