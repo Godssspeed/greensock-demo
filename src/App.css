@@ -22,7 +22,7 @@
 	text-align: center;
 	transform: scale(10);
 
-	animation: space 3500s infinite linear;
+	animation: space 750s infinite linear;
 }
 @keyframes space {
 	from {
@@ -88,8 +88,8 @@
 	border: 0 none transparent;
 	border-radius: 100%;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 30%;
+	left: 30%;
 	margin-top: -3px;
 	margin-left: -3px;
 }
@@ -99,18 +99,18 @@
 	border: 0 none transparent;
 	border-radius: 100%;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 40%;
+	left: 40%;
 	margin-top: -3px;
 	margin-left: -3px;
 }
 .circle {
 	position: absolute;
-	width: 600px;
-	height: 600px;
+	width: 500px;
+	height: 500px;
 	background: transparent;
-	top: 31%;
-	left: 39.5%;
+	top: 25%;
+	left: 35%;
 	border-radius: 100%;
 
 	/*outline:0 none transparent;*/
@@ -120,8 +120,8 @@
 	width: 400px;
 	height: 400px;
 	background: transparent;
-	top: 40.5%;
-	left: 44.7%;
+	top: 35%;
+	left: 38%;
 	border-radius: 100%;
 
 	/*outline:0 none transparent;*/
