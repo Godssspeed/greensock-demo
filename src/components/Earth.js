@@ -4,7 +4,7 @@ export class Earth extends Component {
   render() {
     return (
       <div>
-        
+        <img src="https://s3.us-east-2.amazonaws.com/solarsystem/earth.png"/>
       </div>
     )
   }
