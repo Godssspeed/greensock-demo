@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: black;
 }
 
 .App-logo {
@@ -30,4 +31,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.sun img,
+.earth img,
+.mars img,
+.venus img,
+.mercury img {
+  height: 200px;
+  /* width: 200px; */
+}
+
+.earth img,
+.mars img,
+.venus img,
+.mercury img {
 }

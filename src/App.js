@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 
 import "./App.css";
+import SolarSystem from "./components/SolarSystem";
 
 class App extends Component {
   render() {
-    return <div className="App">Hi</div>;
+    return (
+      <div className="App">
+        <SolarSystem />
+      </div>
+    );
   }
 }
 
