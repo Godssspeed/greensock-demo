@@ -106,19 +106,19 @@
 }
 .circle {
 	position: absolute;
-	width: 500px;
-	height: 500px;
+	width: 600px;
+	height: 600px;
 	background: transparent;
 	top: 25%;
-	left: 35%;
+	left: 30%;
 	border-radius: 100%;
 
 	/*outline:0 none transparent;*/
 }
 .circle2 {
 	position: absolute;
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 350px;
 	background: transparent;
 	top: 35%;
 	left: 38%;
