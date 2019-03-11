@@ -1,9 +1,3 @@
-body {
-  /* background-size: 15vw;
-  animation: space 100s infinite linear; */
-
-  /* margin: 0 auto; */
-}
 
 .App {
   height: 100vh;
@@ -51,7 +45,7 @@ body {
 .mars img,
 .venus img,
 .mercury img {
-  height: 200px;
+  height: 100px;
   /* width: 200px; */
 }
 
@@ -59,29 +53,78 @@ body {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: solid 1px pink;
+  /* border: solid 1px pink; */
 
   /* position: fixed; */
   /* top: 0; */
 }
 
-.earth {
-  margin: 1rem;
-}
+
 .mars-div {
   width: 250px;
-  border: solid 1px pink;
+  /* border: solid 1px pink; */
   /* position: absolute; */
 }
 .mercury-div {
   width: 250px;
-  border: solid 1px pink;
+  height: 250px;
+  border-radius: 50%;
+  /* border: solid 1px pink; */
   /* position: absolute; */
   /* top: 100; */
   /* right: 50; */
 }
 .venus-div {
   width: 250px;
-  border: solid 1px pink;
+  height: 250px;
+  border-radius: 50%;
+  /* border: solid 1px pink; */
   /* position: absolute; */
+}
+
+/* orbit section */
+
+.sun1 {
+  width:6px;
+  height:6px;
+  border:0 none transparent;
+  border-radius:100%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-3px;
+  margin-left:-3px;
+}
+.sun2 {
+  width:6px;
+  height:6px;
+  border:0 none transparent;
+  border-radius:100%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-3px;
+  margin-left:-3px;
+}
+.circle {
+  position:absolute;
+  width:600px;
+  height:600px;
+  background:transparent;
+  top: 31%;
+  left:39.5%;
+  border-radius:100%;
+  
+  /*outline:0 none transparent;*/ 
+}
+.circle2 {
+  position:absolute;
+  width:400px;
+  height:400px;
+  background:transparent;
+  top: 40.5%;
+  left:44.7%;
+  border-radius:100%;
+  
+  /*outline:0 none transparent;*/ 
 }

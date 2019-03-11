@@ -12,23 +12,25 @@ export class Earth extends Component {
 		};
 	}
 
-    componentDidUpdate() {
-        if (this.state.showEarth) {
-          this.myTween = TweenMax.fromTo(
-            this.myElement,
-            3,
-            { scale: 1 },
-            { scale: 3, ease: ExpoScaleEase.config(20, 10), repeat: 0 }
-          );
-        } else {
-          this.myTween = TweenMax.fromTo(
-            this.myElement,
-            3,
-            { scale: 3 },
-            { scale: 1, ease: ExpoScaleEase.config(20, 10), repeat: 0 }
-          );
-        }
-      }
+    
+
+	componentDidUpdate() {
+		if (this.state.showEarth) {
+			this.myTween = TweenMax.fromTo(
+				this.myElement,
+				3,
+				{ scale: 1 },
+				{ scale: 3, ease: ExpoScaleEase.config(20, 10), repeat: 0 }
+			);
+		} else {
+			this.myTween = TweenMax.fromTo(
+				this.myElement,
+				3,
+				{ scale: 3 },
+				{ scale: 1, ease: ExpoScaleEase.config(20, 10), repeat: 0 }
+			);
+		}
+	}
 
 	handleClick = () => {
 		this.setState({ showEarth: !this.state.showEarth });
@@ -41,6 +43,7 @@ export class Earth extends Component {
 					onClick={this.handleClick}
 					src="https://s3.us-east-2.amazonaws.com/solarsystem/earth.png"
 				/>
+				{/* <div className="point earth" /> */}
 			</div>
 		);
 	}

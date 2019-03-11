@@ -1,9 +1,4 @@
-.earth-div {
-  width: 250px;
 
-  /* position: fixed; */
-  /* top: 0; */
-}
 .earth-circle {
   position:absolute;
   width:250px;
@@ -11,4 +6,17 @@
   background:transparent;
   border-radius:100%;
   border:1px solid #999;
+}
+.point{
+  width:6px;
+  height:6px;
+  background:#CC0000;
+  border:0 none transparent;
+  border-radius:100%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-3px;
+  margin-left:-3px;
+ /* outline:0 none transparent;*/
 }
