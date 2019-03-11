@@ -1,18 +1,18 @@
 * {
-  background: black;
-  margin: 0 auto;
+	background: url("https://s3.us-east-2.amazonaws.com/solarsystem/black-star-background-1024x768.jpg");
+	margin: 0 auto;
 }
 
 .App {
-  text-align: center;
-  width: 100%;
-  height: 100%;
+	text-align: center;
+	width: 100%;
+	height: 100%;
 }
 
 .outer-div {
-  width: 100%;
-  height: 100%;
-  display: flex;
+	width: 100%;
+	height: 100%;
+	display: flex;
 }
 
 .sun img,
@@ -20,38 +20,38 @@
 .mars img,
 .venus img,
 .mercury img {
-  height: 200px;
-  /* width: 200px; */
+	height: 200px;
+	/* width: 200px; */
 }
 
 .earth-div {
-  width: 250px;
-  border: solid 1px pink;
-  /* position: fixed; */
-  /* top: 0; */
+	width: 250px;
+	border: solid 1px pink;
+	/* position: fixed; */
+	/* top: 0; */
 }
 .mars-div {
-  width: 250px;
-  border: solid 1px pink;
-  /* position: absolute; */
+	width: 250px;
+	border: solid 1px pink;
+	/* position: absolute; */
 }
 .mercury-div {
-  width: 250px;
-  border: solid 1px pink;
-  /* position: absolute; */
-  /* top: 100; */
-  /* right: 50; */
+	width: 250px;
+	border: solid 1px pink;
+	/* position: absolute; */
+	/* top: 100; */
+	/* right: 50; */
 }
 .venus-div {
-  width: 250px;
-  border: solid 1px pink;
-  /* position: absolute; */
+	width: 250px;
+	border: solid 1px pink;
+	/* position: absolute; */
 }
 
 .sun-div {
-  width: 250px;
-  margin: 0 auto;
-  /* position: absolute; */
-  /* top: 50; */
-  /* left: -50; */
+	width: 250px;
+	margin: 0 auto;
+	/* position: absolute; */
+	/* top: 50; */
+	/* left: -50; */
 }
