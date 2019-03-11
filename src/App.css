@@ -57,9 +57,16 @@ body {
 
 .earth-div {
   width: 250px;
+  height: 250px;
+  border-radius: 50%;
   border: solid 1px pink;
+
   /* position: fixed; */
   /* top: 0; */
+}
+
+.earth {
+  margin: 1rem;
 }
 .mars-div {
   width: 250px;
