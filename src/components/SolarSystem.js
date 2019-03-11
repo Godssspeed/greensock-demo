@@ -31,6 +31,9 @@ export class SolarSystem extends Component {
 	render() {
 		return (
 			<div className="wrapper">
+			
+				<h1 className="title">EXPLORE WITH US!</h1>
+			
 				<div className="circle" ref={div => (this.myElement = div)}>
 					<div className="earth-div">
 						{' '}<Earth />
