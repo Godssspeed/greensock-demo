@@ -15,7 +15,7 @@ export class SolarSystem extends Component {
 					</div>
 				</div>
 				<div className="planet-div-container">
-					<div className="earth-div">
+					<div id="expo" className="earth-div">
 						<Earth />
 					</div>
 					<div className="venus-div">
