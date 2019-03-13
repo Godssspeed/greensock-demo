@@ -9,13 +9,10 @@
 	content: "";
 	background: url("https://s3.us-east-2.amazonaws.com/solarsystem/black-star-background-1024x768.jpg");
 	background-size: 15vw;
-	/* background-position: center top; */
 	position: absolute;
 	z-index: -1000;
 	top: -300%;
 	left: -300%;
-	/* bottom: 0; */
-	/* right: 0; */
 	overflow: visible;
 	width: 1000vw;
 	height: 1000vh;
@@ -45,39 +42,27 @@
 .venus img,
 .mercury img {
 	height: 100px;
-	/* width: 200px; */
+
 }
 
 .earth-div {
 	width: 250px;
 	height: 250px;
 	border-radius: 50%;
-	/* border: solid 1px pink; */
-
-	/* position: fixed; */
-	/* top: 0; */
 }
 
 .mars-div {
 	width: 250px;
-	/* border: solid 1px pink; */
-	/* position: absolute; */
 }
 .mercury-div {
 	width: 250px;
 	height: 250px;
 	border-radius: 50%;
-	/* border: solid 1px pink; */
-	/* position: absolute; */
-	/* top: 100; */
-	/* right: 50; */
 }
 .venus-div {
 	width: 250px;
 	height: 250px;
 	border-radius: 50%;
-	/* border: solid 1px pink; */
-	/* position: absolute; */
 }
 
 /* orbit section */
@@ -112,8 +97,6 @@
 	top: 25%;
 	left: 30%;
 	border-radius: 100%;
-
-	/*outline:0 none transparent;*/
 }
 .circle2 {
 	position: absolute;
@@ -123,10 +106,7 @@
 	top: 35%;
 	left: 38%;
 	border-radius: 100%;
-
-	/*outline:0 none transparent;*/
 }
 .title {
   color: white;
-
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Earth.css';
-import { TweenMax, ExpoScaleEase, TweenLite } from 'gsap';
+import { TweenMax, ExpoScaleEase} from 'gsap';
 
 export class Earth extends Component {
 	constructor(props) {
